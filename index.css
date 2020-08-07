@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Courgette&family=Nanum+Gothic+Coding:wght@700&family=Nanum+Gothic:wght@700&family=Permanent+Marker&family=Song+Myung&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Courgette&family=Nanum+Gothic+Coding:wght@700&family=Nanum+Gothic:wght@700&family=Permanent+Marker&family=Song+Myung&display=swap');
 
 body {
   background-color: #aaa1ad;
@@ -24,7 +24,7 @@ input {
 }
 .clock h1 {
   font-size: 150px;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   text-shadow: 3px 10px 10px rgba(0, 0, 0, 0.5),
     3px 10px 10px rgba(0, 0, 0, 0.5);
   margin-top: 0;
@@ -39,7 +39,7 @@ input {
 .greetings {
   display: none;
   text-align: center;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   text-shadow: 0px 0px 5px #000, 0px 0px 5px #000, 0px 0px 5px #000,
     0px 0px 5px #000;
   font-size: 30px;
@@ -52,7 +52,7 @@ input {
   color: white;
   text-align: center;
   font-size: 50px;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   text-shadow: 0px 0px 5px #000, 0px 0px 5px #000;
   padding: 0;
   border: 0;
@@ -61,7 +61,7 @@ input {
 }
 .form input::placeholder {
   color: white;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   text-shadow: 0px 0px 5px #000, 0px 0px 5px #000;
 }
 
@@ -93,7 +93,7 @@ input {
   background: none;
   color: white;
   font-size: 50px;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   text-shadow: 0px 0px 5px #000, 0px 0px 5px #000;
   padding: 0;
   border: 0;
@@ -102,15 +102,17 @@ input {
 .toDoForm input::placeholder {
   color: white;
   text-align: center;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   text-shadow: 0px 0px 5px #000, 0px 0px 5px #000;
 }
 .toDoList {
   width: 300px;
+  height: 200px;
   padding-left: 0;
-  font-family: "Song Myung", serif;
+  font-family: 'Song Myung', serif;
   font-size: 30px;
   text-align: center;
+  overflow-y: auto;
 }
 .toDoList li {
   box-sizing: border-box;
@@ -137,7 +139,7 @@ input {
   display: flex;
   align-items: center;
   font-size: 20px;
-  font-family: "Song Myung", serif;
+  font-family: 'Song Myung', serif;
   text-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 .bgImage {
